@@ -1,0 +1,74 @@
+body {
+    background-color: #8d3178;
+}
+h1,h2{
+    text-align: center;
+}
+
+h1 {
+    font-family: "Danfo";
+    color: #f4a522;
+    font-size: 100px;
+    text-shadow: 2px 2px 4px #e76f2b;
+}
+
+h2 {
+    font-family: "Dancing Script";
+    font-weight: 200;
+    font-size: 50px;
+    color: #f4a522;
+    text-shadow: 2px 2px 4px #e76f2b;
+}
+
+#moodContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.mood-card {
+    display: flex;
+    flex-basis: 20%;
+    margin: 3em;
+    width: 33%;
+    flex-direction: column;
+    box-shadow: 4px 4px 8px black;
+    background-color: #e76f2b;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.mood-card:hover {
+    background-color: #f4a522;
+    transform: translateY(-15px);
+    
+}
+
+.mood-advice {
+    display:flex;
+    padding: 5%;
+    font-family: "Caveat";
+
+}
+
+.mood-name {
+    text-align: center;
+    font-family: "Honk";
+    font-weight: 400;
+    font-size: 150%;
+}
+
+.mood-img {
+    width: 100%;
+    border-radius: 1em;
+}
+
+.macho-advice {
+    padding-top: 15%;
+    font-family: "Danfo";
+    font-size: 150%;
+    color: #8d3178;
+    text-shadow: 2px 2px 4px #f4a522;
+}
