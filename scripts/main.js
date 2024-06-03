@@ -1,2 +1,4 @@
+import { moods } from "./moods.js"
+const container = document.querySelector('#moodContainer')
 
-const container = document.querySelector('.container')
+container.innerHTML = moods()

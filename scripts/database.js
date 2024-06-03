@@ -90,3 +90,5 @@ const database = [
         ]
     }
 ];
+
+export const data = database.map((obj) => ({...obj}))
