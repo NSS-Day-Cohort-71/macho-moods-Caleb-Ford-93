@@ -4,6 +4,7 @@ export const moods = () => {
     let moodHtml = ``
     data.forEach(mood => {
         moodHtml += `
+        <div class="mood-card">
             <h3 class="mood-name">${mood.name}</h3>
             <img src="${mood.imageUrl}" class="mood-img" alt="${mood.text}">
             <div class="mood-advice">
@@ -13,6 +14,7 @@ export const moods = () => {
                     <li>${mood.quotes[1]}</li>
                 </ul>
             </div>
+        </div>
         `
     });
     return moodHtml
